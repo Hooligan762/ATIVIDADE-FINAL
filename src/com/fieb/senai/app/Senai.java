@@ -6,6 +6,7 @@
 package com.fieb.senai.app;
 
 import com.fieb.senai.entidades.Endereco;
+import com.fieb.senai.entidades.Estado;
 import com.fieb.senai.entidades.Pessoa;
 import com.fieb.senai.entidades.Telefone;
 import java.util.ArrayList;
@@ -53,7 +54,14 @@ public class Senai {
         System.out.println(" Telefone" + telefone.getNumero());
             
         }
-      
+        List<Estado> listaestado = new ArrayList<>();
+        for (Estado estado : listaestado) {
+            
+            System.out.println(" Estado" + estado.getNome());
+            
+        }
+            
+        }
     }
    
-}
+
