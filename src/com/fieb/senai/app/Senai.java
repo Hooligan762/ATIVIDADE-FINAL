@@ -29,7 +29,7 @@ public class Senai {
         
         //Ceclarando a associação
         p1.setEndereco(end1);
-        p1.setTelefone(tel1);
+       
        
         
         Pessoa p2 = new Pessoa("José",  6464, 45);
@@ -38,7 +38,7 @@ public class Senai {
                
         //Ceclarando a associação
         p2.setEndereco(end2);
-        p2.setTelefone(tel2);
+      
         
         
        Pessoa p3 = new Pessoa("Calos", 6254, 52);
@@ -46,7 +46,7 @@ public class Senai {
        Telefone tel3 = new Telefone ("546.54");
      
        p3.setEndereco(end3);
-       p3.setTelefone(tel3);
+       
        
        List<Telefone> listatelefone = new ArrayList<>();
        
